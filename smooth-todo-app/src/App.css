@@ -1,0 +1,38 @@
+.app-container{
+  height: 100vh;
+  background-color: #000000f1;
+  color: #fff;
+  padding: 20px 15px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+.app-second-box{
+    background: #0000002f;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+    flex: 1;
+    padding: 20px;
+    max-height: calc(100%);
+    overflow: scroll;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+/* .input-box input[type=date]::-webkit-calendar-picker-indicator{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  background-position: calc(100% - 10px);
+  background-size: 10px;
+  cursor: pointer;
+} */
+

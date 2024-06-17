@@ -1,0 +1,75 @@
+.breadcrum-todo{
+    height: 170px;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+    border: 1px solid #343a40;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.breadcrum-todo .breadcrum-head-para h1{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.breadcrum-todo .breadcrum-head-para p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #adb5bd;
+}
+
+.breadcrum-date-delete-edit{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.breadcrum-date-indication{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.breadcrum-date-indication button{
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.red{
+    background: #ef233c;
+}
+
+.green{
+    background: #06d6a0;
+}
+
+.breadcrum-control-btns{
+    font-size: 20px;
+    display: flex;
+    gap: 15px;
+    color: #adb5bd;
+}
+
+.breadcrum-edit{
+    cursor: pointer;
+}
+
+.breadcrum-edit:active{
+    color: #fff;
+}
+
+.breadcrum-delete{
+    cursor: pointer;
+}
+
+.breadcrum-delete:active{
+    color: #fff;
+}

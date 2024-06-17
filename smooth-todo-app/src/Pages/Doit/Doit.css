@@ -1,0 +1,37 @@
+.doit-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.doit-container h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.doit-container h1 span{
+    border-bottom: 2px solid #06d6a0;
+    padding-bottom: 5px;
+}
+
+.doit-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.doit-head button{
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.all-todo-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 0;
+    gap: 15px;
+    justify-content: center;
+}

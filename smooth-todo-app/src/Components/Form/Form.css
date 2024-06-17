@@ -1,0 +1,142 @@
+.add-todo-form{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.add-todo-form form {
+    width: 450px;
+    background: #49505751;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 40px 25px;
+}
+
+.form-headline{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .form-headline h4{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #ced4da;
+}
+
+.cancel-form-btn{
+    display: flex;
+    font-size: 30px;
+    color: #ced4da;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.cancel-form-btn:active{
+    color: #fff;
+}
+
+
+
+.input-box{
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.input-box p{
+    font-size: 15px;
+    color: #ced4da;
+    margin-bottom: 7px;
+    
+}
+
+.input-box input{
+    width: 100%;
+    padding: 0px 20px;
+    border: none;
+    outline: none;
+    background: #000;
+    border-radius: 5px;
+    height: 40px;
+    color: #e9ecef;
+    font-size: 15px;
+}
+
+.input-box input:focus{
+    border: 1px solid #fff;
+}
+
+.input-box input[type=date]::-webkit-calendar-picker-indicator{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 10px;
+    cursor: pointer;
+}
+
+.textarea-box{
+    font-size: 15px;
+    color: #ced4da;
+    margin-bottom: 10px;
+}
+
+.textarea-box p{
+    margin-bottom: 7px;
+}
+
+.textarea-box textarea{
+    height: 120px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: #000;
+    border-radius: 5px;
+    color: #e9ecef;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.textarea-box textarea:focus{
+    border: 1px solid #fff;
+}
+
+.input-box{
+    position: relative;
+}
+
+.check-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.check-box input{
+    cursor: pointer;
+}
+
+.form-creat-btn{
+    text-align: right;
+    font-size: 15px;
+}
+
+.form-creat-btn button{
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background: linear-gradient(130deg , #00b4d8, #90e0ef);
+    cursor: pointer;
+}
+
